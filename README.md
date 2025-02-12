@@ -78,6 +78,7 @@ This will execute:
 
 
 
-📂PROJECT STRUCTURE:
+📂PROJECT STRUCTURE: ![EmployeePerformance-ProjectStructure](https://github.com/user-attachments/assets/420afe3f-2f97-4ca0-9dc9-202e55f0e192)
+
 
 
