@@ -4,14 +4,14 @@ The backend is built using Spring Boot and MongoDB Atlas, while the frontend is 
 
 
 🛠️ TECHNOLOGIES USED:
-Java: 17.0.12 (Stable version)
-Spring Boot: 3.4.1
-Apache Maven: 3.9.9
-MongoDB Atlas (Cloud Database): 8.0.4
-Flutter: 3.13.2 (Frontend)
-Dart: 3.1.0 (Frontend)
-Git: 2.43.0.windows.1
-Postman - Used for API testing
+• Java: 17.0.12 (Stable version)
+• Spring Boot: 3.4.1
+• Apache Maven: 3.9.9
+• MongoDB Atlas (Cloud Database): 8.0.4
+• Flutter: 3.13.2 (Frontend)
+• Dart: 3.1.0 (Frontend)
+• Git: 2.43.0.windows.1
+• Postman - Used for API testing
 
 
 🚀 PROJECT SETUP INSTRUCTIONS :
