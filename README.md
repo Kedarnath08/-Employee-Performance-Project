@@ -60,11 +60,11 @@ Ensure the backend is running (mvn spring-boot:run).
 
 Step 2: Test API Endpoints in Postman
 Use GET requests to test the following endpoints:
-# Fetch all employees - http://localhost:8080/employees	
-# Get count of employees per rating category - http://localhost:8080/employees/rating-count	
-# Get deviation from expected rating distribution - http://localhost:8080/employees/deviation	
-# Get employees who should be considered for rating revision - http://localhost:8080/employees/revise-ratings	
-# Get the percentage of employees per rating category - http://localhost:8080/employees/rating-percentage	
+• Fetch all employees - http://localhost:8080/employees	
+• Get count of employees per rating category - http://localhost:8080/employees/rating-count	
+• Get deviation from expected rating distribution - http://localhost:8080/employees/deviation	
+• Get employees who should be considered for rating revision - http://localhost:8080/employees/revise-ratings	
+• Get the percentage of employees per rating category - http://localhost:8080/employees/rating-percentage	
 
 
 
@@ -80,37 +80,4 @@ This will execute:
 
 📂PROJECT STRUCTURE:
 
-EmployeePerformance/
-│── EmployeeBackend/          # Backend (Spring Boot)
-│   ├── src/main/java/com/estuate/employeeperformance/
-│   │   ├── EmployeePerformanceApplication.java  # Main Spring Boot Application
-│   │   ├── controller/
-│   │   │   ├── EmployeeController.java        # Handles API requests
-│   │   ├── service/
-│   │   │   ├── EmployeeService.java          # Business logic for employees
-│   │   │   ├── RecommendationService.java    # Handles rating revisions
-│   │   ├── repository/
-│   │   │   ├── EmployeeRepository.java       # MongoDB Interface
-│   │   ├── model/
-│   │   │   ├── Employee.java                 # Employee Entity Model
-│   │   ├── config/
-│   │   │   ├── MongoConfig.java              # MongoDB Configuration
-│   ├── src/main/resources/
-│   │   ├── application.properties            # Backend Configuration
-│   ├── pom.xml                               # Maven Dependencies
-│
-│── employee_frontend/        # Frontend (Flutter)
-│   ├── lib/
-│   │   ├── main.dart                         # Main Flutter App
-│   │   ├── screens/
-│   │   │   ├── HomeScreen.dart               # Home UI
-│   │   │   ├── EmployeeForm.dart             # Employee Form UI
-│   │   │   ├── ResultScreen.dart             # Display Suggestions
-│   │   ├── services/
-│   │   │   ├── ApiService.dart               # Handles API Calls
-│   ├── pubspec.yaml                          # Flutter Dependencies
-│
-│── README.md                                  # Project Documentation
-│── .gitignore                                 # Ignored Files for Git
-│── .gitattributes                             # File Line Endings
 
